@@ -1,0 +1,108 @@
+
+
+.container{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-position:relative;
+    background-repeat: no-repeat;
+    max-width:1140px;
+    height: 600px; 
+    padding: 30px;  
+    
+    }
+.card{
+    width: 18rem;
+    margin: auto;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.row{
+    padding: 10px;
+    margin: 10px;
+}
+
+.col{   
+    justify-items: center;
+  
+}
+
+.card-image{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.btn-primary{
+    background-color: hsl(245, 75%, 52%);
+}
+.btn-primary:hover{
+    background-color: hsl(253, 27%, 45%);
+}
+
+.btn{
+    width:240px;
+    border:none;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    
+    
+}
+.cancel{
+    width:120px;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    
+}
+.cancel a {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+   
+}
+.cancel a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.attribution { 
+    text-align: center;
+  }
+
+
+.attribution a {
+    color: hsl(245, 75%, 52%);
+  }
+
+.icon{
+    background-color:hsl(225, 86%, 95%);
+    border:none;
+    border-radius: 20px;
+    width: 240px;
+    margin: auto;
+    display: flex;
+}
+.icon li{
+    list-style-type: none;
+    margin:auto;
+}
+
+.icon .icon-link{
+    color: hsl(245, 75%, 52%);
+
+  }
+  .icon .icon-link :hover{
+   color: hsl(253, 27%, 45%);
+   text-decoration: none;
+  }
+
+  .icon .icon-middle{
+      margin:10px 60px 10px 5px; 
+  }
+
+  .icon .icon-text{
+      margin: auto;
+   
+  }
+  .icon .icon-header{
+     margin: auto;
+  }
+
